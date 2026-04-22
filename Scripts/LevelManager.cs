@@ -15,7 +15,7 @@ public class LevelManager : MonoBehaviour
     public float paddingY = 0.15f;
     public Vector2 startPosition = new Vector2(0f, 4f);
 
-    void Awake()
+    void Start()
     {
         SpawnLevel();
     }

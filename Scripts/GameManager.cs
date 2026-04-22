@@ -33,6 +33,7 @@ public class GameManager : MonoBehaviour
     {
         if (Instance == null) Instance = this;
         else Destroy(gameObject);
+        levelManager = FindFirstObjectByType<LevelManager>();
     }
 
     public void HideTapToStart()
